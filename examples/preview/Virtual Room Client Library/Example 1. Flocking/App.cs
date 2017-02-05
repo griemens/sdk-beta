@@ -92,6 +92,7 @@ namespace VirtualRoomClientLibraryExamples
                         asInstructor: false,
                         avatarName: bot.Name,
                         projectName: projectName,
+                        peerTag: "WalkinsideViewer/10.2.33",
                         // We only have 8 characters in Walkinside viewer.
                         avatarModelName: string.Format("char{0}", bot.Index % 8), 
                         avatarSkinName: "skin0",
